@@ -1,0 +1,55 @@
+.card {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+  }
+}
+
+.profile-container {
+  .info-item {
+    margin-bottom: 1.5rem;
+
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      color: var(--text-color-secondary);
+    }
+
+    .info-content {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      input {
+        flex: 1;
+
+        &[readonly] {
+          background-color: var(--surface-ground);
+          border-color: transparent;
+        }
+      }
+
+      i {
+        cursor: pointer;
+        padding: 0.5rem;
+        border-radius: 50%;
+        transition: background-color 0.2s;
+
+        &:hover {
+          background-color: var(--surface-hover);
+        }
+      }
+    }
+  }
+}
+
+.button-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}

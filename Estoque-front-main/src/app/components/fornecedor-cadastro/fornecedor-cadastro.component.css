@@ -1,0 +1,25 @@
+/* fornecedor-cadastro.component.scss */
+:host {
+  .card {
+    padding: 2rem;
+    border-radius: 10px;
+    background: var(--surface-card);
+    box-shadow: var(--card-shadow);
+    margin: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+  }
+
+  .p-inputgroup {
+    margin-bottom: 1rem;
+  }
+
+  .p-inputgroup-addon {
+    background: var(--primary-color);
+    color: var(--primary-color-text);
+    border-color: var(--primary-color);
+  }
+}
